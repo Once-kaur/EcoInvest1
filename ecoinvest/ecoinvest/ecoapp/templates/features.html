@@ -1,0 +1,42 @@
+<!-- Add code to extend base.html file -->
+{%extends 'base.html'%}
+<!-- Add code to load static content --> 
+{%load static%}
+
+<!-- Begin block content --> 
+{% block content%}
+<section id="features" class="features">
+    <h2>Key Features</h2>
+    <div class="feature">
+        <i class='bx bx-star'></i>
+        <h3>Environmental Sustainability Index (ESI)</h3>
+        <p>Score regions based on their environmental performance.</p>
+    </div>
+    <div class="feature">
+        <i class='bx bx-map'></i>
+        <h3>Regional Analysis</h3>
+        <p>Analyze crop growth, water supply, and renewable energy potential.</p>
+    </div>
+    <div class="feature">
+        <i class='bx bx-receipt'></i>
+        <h3>Investment Recommendations</h3>
+        <p>Suggest investment opportunities in sustainable projects.</p>
+    </div>
+    <div class="feature">
+        <i class='bx bx-shield'></i>
+        <h3>Risk Assessment</h3>
+        <p>Assess and manage ESG-related risks.</p>
+    </div>
+    <div class="feature">
+        <i class='bx bx-briefcase'></i>
+        <h3>Portfolio Management</h3>
+        <p>Create and manage your sustainable investment portfolio.</p>
+    </div>
+    <div class="feature">
+        <i class='bx bx-book'></i>
+        <h3>Education and Resources</h3>
+        <p>Access materials on sustainable finance and ESG investing.</p>
+    </div>
+    </section>
+{% endblock %}
+<!-- End block content -->

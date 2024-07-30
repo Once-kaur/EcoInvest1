@@ -1,0 +1,77 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<section id="home" class="home">
+    <div class="home-content">
+        <h1>Welcome to EcoInvest</h1>
+        <p>Investing in a sustainable future, one region at a time.</p>
+        <a href="#recommendations" class="btn">Get Started</a>
+    </div>
+</section>
+
+<!-- Features section -->
+<section id="features" class="features">
+    <h2>Key Features</h2>
+    <div class="feature">
+        <i class='bx bx-star'></i>
+        <h3>Environmental Sustainability Index (ESI)</h3>
+        <p>Score regions based on their environmental performance.</p>
+    </div>
+    <div class="feature">
+        <i class='bx bx-map'></i>
+        <h3>Regional Analysis</h3>
+        <p>Analyze crop growth, water supply, and renewable energy potential.</p>
+    </div>
+    <div class="feature">
+        <i class='bx bx-receipt'></i>
+        <h3>Investment Recommendations</h3>
+        <p>Suggest investment opportunities in sustainable projects.</p>
+    </div>
+    <div class="feature">
+        <i class='bx bx-shield'></i>
+        <h3>Risk Assessment</h3>
+        <p>Assess and manage ESG-related risks.</p>
+    </div>
+    <div class="feature">
+        <i class='bx bx-briefcase'></i>
+        <h3>Portfolio Management</h3>
+        <p>Create and manage your sustainable investment portfolio.</p>
+    </div>
+    <div class="feature">
+        <i class='bx bx-book'></i>
+        <h3>Education and Resources</h3>
+        <p>Access materials on sustainable finance and ESG investing.</p>
+    </div>
+</section>
+
+<!-- Recommendations section -->
+<section id="recommendations" class="recommendations">
+    <h2>Investment Recommendations</h2>
+    <!-- Placeholder for recommendations content -->
+    <p>Recommendations will be displayed here based on your preferences and ESI scores.</p>
+</section>
+
+<!-- Portfolio section -->
+<section id="portfolio" class="portfolio">
+    <h2>Your Portfolio</h2>
+    <!-- Placeholder for portfolio management features -->
+    <p>Manage and track your sustainable investments here.</p>
+</section>
+
+<!-- Contact section -->
+<section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <form action="" method="post">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message"></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+    <p>&copy; 2024 EcoInvest. All rights reserved.</p>
+</footer>
+{% endblock %}
